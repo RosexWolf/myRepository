@@ -1,6 +1,9 @@
 import aritmetica as t
 import text as a
 
+print(a.Title("Este ","programa ","realiza ","operaciones ","matematicas."))
+
+
 print(a.concat("Suma ","de ","Numeros"))
 print(t.sumDosNum(2,3))
 
