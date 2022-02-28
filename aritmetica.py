@@ -20,4 +20,6 @@ def NumPHI(numPHI):
 
 def NumGrav(numGrav):
     return 6.67e-11
+
+print(NumGrav("--"))
  
