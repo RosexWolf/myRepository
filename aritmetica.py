@@ -1,25 +1,23 @@
 import math
+class Aritmetica(object):
+    def sumDosNum(self,num1,num2):
+        return num1+num2
 
-def sumDosNum(num1,num2):
-    return num1+num2
+    def resDosNum(self,num1,num2):
+        return num1-num2
 
-def resDosNum(num1,num2):
-    return num1-num2
+    def multDosNum(self,num1,num2):
+        return num1*num2
 
-def multDosNum(num1,num2):
-    return num1*num2
+    def divDosNum(self,num1,num2):
+        return num1/num2
 
-def divDosNum(num1,num2):
-    return num1/num2
+    def NumPI(numPI):
+        return math.pi
 
-def NumPI(numPI):
-    return math.pi
+    def NumPHI(numPHI):
+        return 1.16e-4
 
-def NumPHI(numPHI):
-    return 1.16e-4
-
-def NumGrav(numGrav):
-    return 6.67e-11
-
-print(NumGrav("--"))
+    def NumGrav(numGrav):
+        return 6.67e-11
  
